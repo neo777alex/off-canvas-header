@@ -1,0 +1,88 @@
+//## Gray and brand colors
+$text-default: #fff !default;
+$brand-color: #ffe600 !default;
+$brand-secondary: #131316 !default;
+
+
+//## Settings for some of the most global styles.
+$body-bg:               #fff !default;
+$help-bg:				#11343a !default;
+$text-color:            #707070 !default;
+$link-color:            #515151 !default;
+$link-hover-color:      $brand-color !default;
+$link-hover-decoration: none !default;
+// header color.
+$header-color:			#122A2F;
+
+//## Typography
+$font-family-base:        'Oswald', Helvetica, Tahoma, sans-serif !default;
+$font-size-base:          16px;
+$line-height-base:        1.6;
+
+$headings-font-family:    inherit !default;
+$headings-font-weight:    700 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          #000 !default;
+
+$font-size-h1:            65px !default; 
+$font-size-h2:            30px !default;
+$font-size-h3:            20px !default;
+$font-size-h4:            16px !default;
+$font-size-h5:            14px !default;
+$font-size-h6:            12px !default;
+
+
+$margin-h1:               30px 0 !default;
+$margin-h2:               20px 0 !default;
+$margin-h3:               15px 0 !default;
+$margin-h4:               10px 0 !default;
+$margin-h5:               5px 0 !default;
+$margin-h6:               2px 0 !default;
+
+
+//## Buttons
+$btn-font-size:                  20px !default;
+$btn-font-weight:                700 !default;
+$btn-border-width:               1px !default;
+$btn-border-radius:              0 !default;
+$btn-padding-vertical:           18px !default;
+$btn-padding-horizontal:         40px !default;
+
+$btn-brand-color:                $brand-secondary !default;
+$btn-brand-bg:                   $brand-color !default;
+$btn-brand-border:               $brand-color !default;
+
+$btn-brand-color-hover:          $brand-color !default;
+$btn-brand-bg-hover:             $btn-brand-color !default;
+$btn-brand-border-hover:         $btn-brand-bg-hover !default;
+
+$btn-link-disabled-color:        #ccc !default;
+
+
+// ## Forms
+
+
+$input-bg:                       #fff !default;
+$input-bg-disabled:              #ccc !default;
+$input-color:                    $text-color !default;
+$input-border:                   $brand-secondary !default;
+$input-border-radius:            0 !default;
+$input-border-focus:             #66afe9 !default;
+$input-color-placeholder:        lighten($brand-secondary, 15%) !default;
+
+$input-height-base:              60px  !default;
+$input-font-size:                15px !default;
+$input-line-height:              1.4 !default;
+$input-border-width:             1px !default;
+$input-line-height-computed:     floor($input-font-size * $input-line-height) !default;
+
+$input-padding:                  ($input-height-base - $input-line-height-computed - $input-border-width) / 2 !default;
+$input-padding-vertical:         $input-padding !default;
+$input-padding-horizontal:       10px !default;
+
+$form-group-margin-bottom:       15px !default;
+$cursor-disabled:                not-allowed !default;
+
+
+
+

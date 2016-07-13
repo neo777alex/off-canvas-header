@@ -1,0 +1,61 @@
+$btn-brand:#ffe600;
+$btn-white:#fff;
+.buttons {
+	margin-bottom: 20px;
+}
+.btn {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+	width:230px;
+	cursor:pointer;
+	padding:13px;
+	border:none;
+	// color:$btn-white;
+	background-color: $btn-brand;
+	text-transform: uppercase;
+	color:#131316;
+	&:hover {
+		background-color: #fff;
+		color:#ffe600;
+	}
+	&--marg {
+		margin-bottom: 65px;
+	}
+	&--lg {
+		width: 170px;
+		color:#fff;
+		text-transform:none;
+		padding: 13.5px;
+		&:hover {
+			color:#ffe600;
+			background: #131316;
+		}
+	}
+	&--ld {
+		width: 171px;
+		color:#fff;
+		font-size: 14px;
+		padding:17px;
+		&:hover {
+			color:#ffe600;
+			background: #131316;
+		}
+	}
+	&--mx {
+		width:204px;
+		color:#161f32;
+		font-size: 14.5px;
+		padding:16.5px;
+	}
+	&--down {
+		width: 60px;
+		position: absolute;
+		bottom:0;
+		transform: translateX(-50%);
+		&:hover {
+			color:#131316;
+			
+		}
+	}
+}
